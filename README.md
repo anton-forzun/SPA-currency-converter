@@ -1,8 +1,11 @@
 SPA currency converter
 
-instuction
+instuction:
+
 git clone
+
 npm install
+
 npm run dev
 
 
