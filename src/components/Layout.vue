@@ -143,7 +143,7 @@ watch(
           type="text"
         />
       </div>
-      <h2 v-if="result.result">
+      <h2 v-if="result.result" class="result">
         RESULT:<span class="form__currency--to">{{
           result.result.toFixed(3)
         }}</span>
@@ -252,13 +252,14 @@ watch(
 }
 .form__currency {
   display: flex;
+  
   gap: 5px;
 }
 .form__currency--to {
   padding: 5px;
 }
 .container__table {
-  width: 90%;
+  
   margin-top: 20px;
   padding: 40px 20px;
   border: 2px solid rgb(99, 116, 198);
@@ -271,6 +272,8 @@ watch(
 }
 
 .choise {
+
+  max-width: 16ch;
 }
 .table {
 }
@@ -365,5 +368,39 @@ watch(
   
 }
 
+@media screen and (max-width: 769px) {
+  .container__form {
+    flex-direction: column;
+  }
+  .navigation_container {
+  }
+  .form__currency {
+    flex-direction: column;
+    
+  }
+  .input {
+    width: auto;
+    max-width: 16ch;
+  }
+  .select {
+    max-width: 18ch;
+  }
+  .result {
+ font-size: 14px;
+  }
+  .container__choise {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 15px 10px;
+    width: 0;
+  }
+  .choise {
+    margin-top: 10px;
+    max-width: 16ch;
+  }
+  .button {
+    margin: 4px;
+  }
+}
 
 </style>
