@@ -92,6 +92,10 @@ const searchCurrency = () => {
     alert("Please enter the amount");
     return;
   }
+  if (inputAmount.value > 10000) {
+    alert("You have exeeded the currency limit,no more than 10000");
+    return;
+  }
   CurrencyApi(
     selectCurrencyFrom.value,
     selectCurrencyTo.value,
