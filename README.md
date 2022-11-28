@@ -1,6 +1,8 @@
 SPA currency converter
 DEMO(https://anton-forzun.github.io/SPA-currency-converter/)
 
+![localhost_5173_SPA-currency-converter_(iPhone SE)](https://user-images.githubusercontent.com/85868104/204215358-ac4b367f-488c-4a61-a5e7-1b8d6e5d4bc9.png)
+
 instuction:
 
 git clone
