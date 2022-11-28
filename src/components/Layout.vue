@@ -13,7 +13,7 @@ const currencyList = ref([]);
 const popup = ref(false);
 
 
-const ACCESS_KEY = "4EUgS9oUdVjkzMRhh2STGUfRPri50sPv";
+const ACCESS_KEY = "C8NFKspaSaZ8JsWFPoHrNdL8jLenYwfV";
 
 async function ChoiseCurrency(source, currencies) {
   const data = await fetch(
