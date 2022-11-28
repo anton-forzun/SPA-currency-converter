@@ -256,14 +256,13 @@ watch(
 }
 .form__currency {
   display: flex;
-  
   gap: 5px;
 }
 .form__currency--to {
   padding: 5px;
 }
 .container__table {
-  
+  width: 60%;
   margin-top: 20px;
   padding: 40px 20px;
   border: 2px solid rgb(99, 116, 198);
@@ -276,7 +275,6 @@ watch(
 }
 
 .choise {
-
   max-width: 16ch;
 }
 .table {
@@ -379,8 +377,7 @@ watch(
   .navigation_container {
   }
   .form__currency {
-    flex-direction: column;
-    
+    flex-direction: column; 
   }
   .input {
     width: auto;
